@@ -234,7 +234,39 @@ For this project i have chosen to use Tailwind, i dont want to spend a lot of ti
 
 For those who don't know, Tailwind is not a component library it provides classes we can use to style html elements with.
 
+lets install tailwind by running this command at the root folder of the project.
+
+`npm install tailwindcss`
+
+We do need to add some configuration in our project to make it work.
+Go to the index.css file and paste this code in:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 ## Setting up firebase Authentication
+
+Ok enough React for now lets head back to the firebase console so we can focus on getting authentication activated.
+The cool thing about firebase is that is supports many ways of authentication to give you an example we can use:
+
+- email/ password
+- google auth
+- facebook
+- github
+- microsoft
+- apple
+and even saml open id connect and some more options.
+
+We will add email password for this example.
+
+go to the firebase console and click the authentication link on the left pain, then select get started and select email/password from the options.
+switch the toggle to enable and save.
+That was it, now lets focus on finishing the app that we will deploy on the web in the firebase hosting so it will be visisble on th web and you can show how awesome you are to your friends!
+
+## Adding the rest of the pages in React
 
 ## Using the Firebase emulator
 
