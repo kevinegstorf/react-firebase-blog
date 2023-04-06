@@ -221,13 +221,18 @@ main.tsx
 vite-env.d.ts
 ```
 
-What we need to do now is move the App.tsx inside the pages folder and update the index.tsx inside the pages folder like so
+What we need to do now is move the `App.tsx` inside the pages folder and update the index.tsx inside the pages folder like so
 
 ```typescript
 export { App } from "./App";
 ```
 
 ## Adding some styling with Tailwind
+
+Before we go by creating more pages and components lets add some styling 👨‍🎨.
+For this project i have chosen to use Tailwind, i dont want to spend a lot of time styling and it's also not a blog about css, i do like some nice styled apps so this was the choice i went with. You either love Tailwind or hate it, i think it serves well when you want to add style quickly plus you can just ask chat gpt to through you back a nice tailwind styled template.
+
+For those who don't know, Tailwind is not a component library it provides classes we can use to style html elements with.
 
 ## Setting up firebase Authentication
 
