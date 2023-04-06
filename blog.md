@@ -412,11 +412,20 @@ export const AuthForm = () => {
 
 ## Using the Firebase emulator
 
-So lets kick this one off by telling what it is and why we need it.
+So lets kick this one off by telling what it is and why we need it. The Firebase emulator lets us develop locally and have our own firebase local firebase to test and develop new features without bothering our actual firebase project, when we are happy with our new feature we can push and deploy the code so in production we actually use our live firebase project instead of poluting our firbase project with testing data. unfortunaly in this blog we will not go to deep into the emulator we will use the firebase tool kit which you use for setting up the emulator
+
+`npm i firebase-tools`
+
+  firebase init emulators
+firebase emulators:start
 
 ## Firebase Hosting
 
-Lets get this app on the web!
+Lets get this app on the web! Hosting is actually pretty easy
+
+ npx firebase init --hosting
+ 1539  npx firebase init hosting
+ 1540  npx firebase deploy
 
 ## Final words
 
